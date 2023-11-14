@@ -1,4 +1,4 @@
-# webVTT *.VTT files data parsing
+# webVTT files data parsing
 The Web Video Text Tracks format ([WebVTT]([url](https://www.w3.org/TR/webvtt1/))) text files "provide captions or subtitles for video content, and also text video descriptions, chapters for content navigation, and more generally any form of metadata that is time-aligned with audio or video content"[^1]. This format is widely used on platforms such as YouTube for subtitles or captions [^2] or Microsoft Teams meetings [^3]. WebVTT data can be useful in a wide range of situations, e.g. for researchers and analysts working with qualitative data. The purpose of this script is to transform any webVTT fill to be easily analyzed using data analysis tools.
 
 ## Description
