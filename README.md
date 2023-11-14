@@ -2,7 +2,7 @@
 The Web Video Text Tracks format ([WebVTT]([url](https://www.w3.org/TR/webvtt1/))) text files "provide captions or subtitles for video content, and also text video descriptions, chapters for content navigation, and more generally any form of metadata that is time-aligned with audio or video content"[^1]. This format is widely used on platforms such as YouTube for subtitles or captions [^2] or Microsoft Teams meetings [^3]. WebVTT data can be useful in a wide range of situations, e.g. for researchers and analysts working with qualitative data. The purpose of this script is to transform any webVTT fill to be easily analyzed using data analysis tools.
 
 ## Description
-This R script provides a convenient and efficient way to convert WebVTT (*.VTT) files into a tidy tibble format. The script processes the webVTT file, diarizing the content for each speaker, and consolidating spoken content. It calculates the duration of each speaking turn, counts the number of words, and exports the data to both Microsoft Excel (*.XLSX) and CSV formats (*.CSV).
+This R script provides a convenient and efficient way to convert WebVTT (.VTT) files into a tidy tibble format. The script processes the webVTT file, diarizing the content for each speaker, and consolidating spoken content. It calculates the duration of each speaking turn, counts the number of words, and exports the data to both Microsoft Excel (.XLSX) and CSV formats (.CSV).
 
 [^1]: World Wide Web Consortium (W3C). (n.d.). WebVTT: The Web Video Text Tracks Format. Retrieved November 14, 2023, from ([WebVTT]([url](https://www.w3.org/TR/webvtt1/)))
 [^2]: YouTube Help. (n.d.). Supported subtitle and closed caption files. Retrieved November 14, 2023, from https://support.google.com/youtube/answer/2734698?hl=en
